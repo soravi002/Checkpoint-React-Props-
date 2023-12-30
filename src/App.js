@@ -4,7 +4,7 @@ import PlayersList from './PlayerList';
 function App() {
   return (
     <div className="App">
-      <h1>FIFA Players</h1>
+      <h1 style={{color: "white", position: "relative", left: "40%"}}>FIFA Players</h1>
       <PlayersList />
     </div>
   );
